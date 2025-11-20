@@ -1,1 +1,12 @@
+rownames(data) <- c("Sheep_Present", "Sheep_Absent")
+colnames(data) <- c("Hc_Present", "Hc_Absent")
+
+chisq.test(data)
+
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  data
+X-squared = 6.41, df = 1, p-value = 0.0985
+
+
 
